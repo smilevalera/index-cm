@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    }
+    body{
+    background-color: rgb(235, 225, 225);
+    }
+    .container{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 220vh;
+    color: aliceblue;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        height: 15vh;
+        padding-top: 20px;
+    }
+    .main{
+        width: 100%;
+       
+    }
+    .img1{
+        width: 80vw;
+        height: 80vh;
+        background-color: red;
+        background: url(img/chel3.jfif) no-repeat top left /cover;
+        margin-top: 10px;
+    }
+
+    .content-circle{
+        height: 12vh;
+        width: 80vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        left: 10vw;
+        bottom: +5px;
+    }
+    .circle{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+        background: url(img/fon9.jfif) no-repeat center /cover;
+    }
+    .circle:nth-child(1){
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+        background: url(img/fon11.jfif) no-repeat center /cover;
+    }
+    .circle:nth-child(2){
+        position: relative;     
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+        background: url(img/fon12.jfif) no-repeat center /cover;
+    }
+    .circle:nth-child(3){
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+        background: url(img/chel1.jfif) no-repeat center /cover;
+    }
+    .circle:nth-child(4){
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 5px solid white;
+        background: url(img/chel2.jfif) no-repeat center /cover;
+    }
+    .circle:hover{
+        transition-duration: 1s;
+        transform: scale(+1.5, +1.5);
+    }
+    .story{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 45vh;
+
+    }
+    .story-content{
+        width: 250px;
+        min-height: 47px;
+        background-color: aliceblue;
+    }
+    .in-story-content{
+        width: 100%;
+        height: 10vh;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .story-content:nth-of-type(1) .img-lorem{
+        width: 100%;
+        height: 47px;
+        margin-bottom: 25px;
+        background: url(img/fon1.jfif) no-repeat top left /cover;
+    }
+    .story-content:nth-child(2) .img-lorem{
+        width: 100%;
+        height: 47px;
+        margin-bottom: 25px;
+        background: url(img/fon2.jfif) no-repeat top -15px left /cover;
+    }
+    .story-content:nth-of-type(3) .img-lorem{
+        width: 100%;
+        height: 47px;
+        margin-bottom: 25px;
+        background: url(img/fon4.jfif) no-repeat top -40px left /cover;
+    }
+    .story-content:nth-of-type(4) .img-lorem{
+        width: 100%;
+        height: 47px;
+        margin-bottom: 25px;
+        background: url(img/fon5.jfif) no-repeat top -30px left /cover;
+    }
+    .block{
+        width: 85%;
+        height: 71%;
+        margin-left: 20px;
+        margin-right: 22px;
+        margin-top: 15px;
+    }
+    .third-block{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        }
+    .in-third-block{
+        width: 25vw;
+        height: 30vh;
+
+    }
+
+    .in-third-block2{
+        width: 25vw;
+        height: 45vh;
+        background-color: white;
+    }
+    .in-third-block:nth-child(1) .img-block{
+        width: 100%;
+        height: 40%;
+        background: url(img/fon6.jfif) no-repeat top left /cover ;
+    }
+    .in-third-block:nth-child(2) .img-block{
+        width: 100%;
+        height: 40%;
+        background: url(img/fon7.jfif) no-repeat top left /cover ;
+    }
+    .dark-block{
+        width: 100%;
+        height: 20%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    .img-black{
+        width: 20%;
+        height:20%;
+        float:left;
+        background: url(img/fon8.jfif) no-repeat top left -20px/cover;
+        margin: 15px;
+    }
+    .third-block-one{
+        display: flex;
+        justify-content: space-evenly;
+        width: 60vw;
+        
+    }
+     .img-block:nth-child(1){
+        width: 100px;
+        height: 100px;
+        background: url(img/fon8.jfif) no-repeat top left /cover;
+        position: relative;
+       
+    }
+    .img-block:nth-child(2){
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background: url(img/fon7.jfif) no-repeat top left /cover;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:flex-end;
+    }
+    .in-img-block{
+        width: 60px;
+        height: 80px;
+        background-color:black;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items:center;
+        text-align: center;
+
+        
+    }
+    .footer{
+        width: 100%;
+        height: 20vh;
+
+    }
+    ul{
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+    }
+    ul li{
+        display: flex;
+        justify-content: end;
+        list-style-type: none;
+        font-size: .9rem;
+        color: black; 
+    }
+    li:hover{
+        color: white;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        margin-left: 10px;
+        align-items: center;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    h3{
+        font-size: 1.3rem;
+        color: rgb(169, 172, 143);
+        position: relative;
+        left: 0px;
+        top: -40px;
+    }
+    h4{
+        font-size: 1.5rem;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .h4{
+        font-size: 1.5rem;
+        color: black;
+    }
+    h5{
+        color:black;
+        font-size: 17px;
+    }
+   h6{
+    font-size: 1.2rem;
+   }
+    span{
+        color: black;
+    }
+    p{
+        color: rgb(169, 172, 143);
+        font-size: 1rem; 
+    }
+    hr{
+        color: aliceblue;
+    }
+
